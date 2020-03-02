@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297 126">
+  <defs>
+    <style>
+      .cls-1,.cls-6,.cls-9{fill:none}.cls-1{stroke:#5d5d5d}.cls-1,.cls-10,.cls-4,.cls-6,.cls-9{stroke-miterlimit:10}.cls-13,.cls-4{fill:#fff}.cls-10,.cls-13,.cls-4,.cls-6,.cls-9{stroke:#2f3f4a}.cls-13,.cls-4,.cls-6,.cls-9{stroke-width:1.75px}.cls-9{stroke-linecap:round}.cls-10{fill:#2f3f4a}.cls-13{stroke-linejoin:round}
+    </style>
+    <clipPath id="clip-path">
+      <rect width="48.2" height="61.06" x="131.5" y="32.3" class="cls-1" rx="4" ry="4"></rect>
+    </clipPath>
+  </defs>
+  <g id="Customer">
+    <ellipse cx="148.5" cy="117.2" fill="#a9e6fd" rx="148.5" ry="8.9"></ellipse>
+    <path fill="#fff" d="M229.3 104.5H254V107.6H229.3z"></path>
+    <path d="M73.7 19.1V13.4a3.8 3.8 0 0 1 3.8-3.8H221.3a3.8 3.8 0 0 1 3.8 3.8v5.7M225.1 19.1V97.8a3.7 3.7 0 0 1-3.8 3.6H77.5a3.7 3.7 0 0 1-3.8-3.6V19.1z" class="cls-4"></path>
+    <g clip-path="url(#clip-path)">
+      <path d="M114.1 26.2L193.7 105.9M114.1 18.3L193.7 97.9M114.1 10.3L193.7 90M114.1 2.4L193.7 82.1M114.1-5.6L193.7 74.1M114.1-13.5L193.7 66.2M114.1-21.5L193.7 58.2M114.1-29.4L193.7 50.3M114.1-37.3L193.7 42.3M114.1-45.3L193.7 34.4M114.1-53.2L193.7 26.4M114.1-61.2L193.7 18.5M114.1 34.2L193.7 113.8M114.1 42.1L193.7 121.8M114.1 50L193.7 129.7M114.1 58L193.7 137.7M114.1 65.9L193.7 145.6M114.1 73.9L193.7 153.5" class="cls-6"></path>
+    </g>
+    <rect width="48.2" height="61.06" x="131.5" y="32.3" class="cls-1" rx="4" ry="4"></rect>
+    <rect width="48.2" height="61.06" x="131.5" y="32.3" class="cls-6" rx="4" ry="4"></rect>
+    <rect width="48.2" height="61.06" x="124.8" y="25.7" fill="#a9e6fd" stroke="#2f3f4a" stroke-miterlimit="10" stroke-width="1.75" rx="4" ry="4"></rect>
+    <rect width="37.6" height="8.96" x="130.1" y="72.4" fill="#007dc1" rx="2" ry="2"></rect>
+    <rect width="37.6" height="8.96" x="130.1" y="45.6" class="cls-4" rx="2" ry="2"></rect>
+    <path d="M133.5 48.7L133.5 51.5" class="cls-9"></path>
+    <rect width="37.6" height="8.96" x="130.1" y="59" class="cls-4" rx="2" ry="2"></rect>
+    <circle cx="134" cy="63.6" r="1.2" class="cls-10"></circle>
+    <circle cx="138" cy="63.6" r="1.2" class="cls-10"></circle>
+    <circle cx="142" cy="63.6" r="1.2" class="cls-10"></circle>
+    <circle cx="146" cy="63.6" r="1.2" class="cls-10"></circle>
+    <circle cx="150" cy="63.6" r="1.2" class="cls-10"></circle>
+    <circle cx="148.9" cy="36.7" r="4.5" class="cls-4"></circle>
+    <circle cx="80.5" cy="14.5" r="1.6" class="cls-4"></circle>
+    <circle cx="87.2" cy="14.5" r="1.6" class="cls-4"></circle>
+    <circle cx="93.9" cy="14.5" r="1.6" class="cls-4"></circle>
+    <path d="M149.2 28.4L149.2 5.7" class="cls-9"></path>
+    <path fill="#fff" stroke="#2f3f4a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M151.4 3.7L155.2 2.3 237.5 76.6 228.5 86.1 150.2 8 151.4 3.7z"></path>
+    <rect width="61" height="8.78" x="212.1" y="108.1" class="cls-4" rx="4.4" ry="4.4"></rect>
+    <path d="M241.8,76.8h-9.9a3.4,3.4,0,0,0-3.4,3.4v7.7l10.6.2Z" class="cls-4"></path>
+    <circle cx="237.1" cy="84.8" r="4.1" class="cls-4"></circle>
+    <path d="M263.8,65.2h-17c-1.9,0-2.9,1.4-3.4,3.4l-4.2,19.6H215.5a3.4,3.4,0,0,0-3.4,3.4v9.8a3.4,3.4,0,0,0,3.4,3.3h54.2a3.4,3.4,0,0,0,3.4-3.3V74.5C273.1,68.4,270.1,65.2,263.8,65.2Z" class="cls-4"></path>
+    <path d="M266.6,88.9h-4.7a3.4,3.4,0,0,1-3.3-3.4V71.9a3.3,3.3,0,0,1,3.3-3.3h3c3.3,0,5,1.6,5,5V85.5A3.4,3.4,0,0,1,266.6,88.9Z" class="cls-6"></path>
+    <rect width="6.7" height="20.34" x="246" y="68.5" class="cls-6" rx="3.4" ry="3.4"></rect>
+    <path d="M243.6 67.5L238.2 92.8M212.1 92.1L239 92.1" class="cls-6"></path>
+    <rect width="55.2" height="3.09" x="215" y="110.9" class="cls-6" rx="1.5" ry="1.5"></rect>
+    <path d="M229.3 104.5L229.3 107.6M254.1 104.5L254.1 107.6M212 100.2L273.1 100.2M255.7 65.1L255.7 100.4" class="cls-6"></path>
+    <rect width="2" height=".64" x="267.2" y="91.4" stroke="#2f3f4a" stroke-miterlimit="10" stroke-width="1.75" rx=".2" ry=".2"></rect>
+    <path d="M41.5 67L78 59.3 73.3 56.8 31.1 66 30.7 67.1 31.1 68.3 66.8 75.9 31.1 83.7 30.7 84.8 31.1 86 73.2 95 78 92.7 41.5 84.8 78 77 78.8 75.9 78 75 41.5 67z" class="cls-13"></path>
+    <path d="M78.4 67.1L78 66 35.8 56.8 31.1 59.3 67.6 67 31.1 75 30.3 75.9 31.1 77 67.6 84.8 31.1 92.7 35.9 95 78 86 78.4 84.8 78 83.7 42.3 75.9 78 68.3 78.4 67.1z" class="cls-13"></path>
+    <rect width="50.4" height="5.68" x="29.3" y="53.9" class="cls-4" rx="2" ry="2"></rect>
+    <rect width="50.4" height="5.68" x="29.3" y="34.7" class="cls-4" rx="2" ry="2"></rect>
+    <rect width="50.4" height="13.71" x="29.3" y="98.3" class="cls-4" rx="5.2" ry="5.2"></rect>
+    <circle cx="36" cy="112.1" r="5.2" class="cls-4"></circle>
+    <circle cx="36" cy="112.1" r="2.3" class="cls-4"></circle>
+    <circle cx="72.2" cy="112.1" r="5.2" class="cls-4"></circle>
+    <circle cx="72.2" cy="112.1" r="2.3" class="cls-4"></circle>
+    <path d="M29.3 93.6H79.7V103.78999999999999H29.3z" class="cls-4"></path>
+    <path d="M30.8 40.4L30.8 53.9M47.4 40.4L47.4 53.9M78.3 40.4L78.3 53.9M62.2 40.4L62.2 53.9M30.3 45.9L78.4 45.9" class="cls-6"></path>
+    <circle cx="155.1" cy="8.3" r="6.6" fill="#fff" stroke="#2f3f4a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.75"></circle>
+    <path d="M32.5 97.5L47.7 97.5M50.8 97.5L50.8 97.5M215.6 95.6L230.8 95.6M233.9 95.6L233.9 95.6M224.6 77.5L195.6 48.5M40.9 109.4L67.4 109.4M91.6 117L164.5 117M175.5 117L197.4 117" class="cls-9"></path>
+  </g>
+</svg>

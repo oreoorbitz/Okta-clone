@@ -1,0 +1,8 @@
+/* Source and licensing information for the line(s) below can be found at https://www.okta.com/sites/all/themes/Okta/js/drift_attribution.js. */
+if(typeof drift!==undefined&&window.drift&&localStorage&&navigator.cookieEnabled){drift.on("ready",function(api){function getRefQueryParam(name){name=name.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]");var regex=new RegExp("[\\?&]"+name+"=([^&#]*)");var results=regex.exec(location.search);return results===null?"":decodeURIComponent(results[1].replace(/\+/g," "));}
+const PROPS=["utm_campaign","utm_content","utm_medium","utm_page","utm_source","utm_term"];const numVisits=parseInt(localStorage.getItem("Drift.Targeting.numberOfVisits"));const currentSession=parseInt(localStorage.getItem("Drift.Targeting.numberOfSessions"));const lastSession=parseInt(localStorage.getItem("lastDriftSessionNumber"));let newSession=false;if(!lastSession||!currentSession||currentSession>lastSession){newSession=true;}
+localStorage.setItem("lastDriftSessionNumber",currentSession);const attrs={};PROPS.map(function(prop){const value=getRefQueryParam(prop);let propName="";if(numVisits===1){propName="original_"+prop+"_custom";attrs[propName]=value;}
+if(newSession){propName="session_"+prop;attrs[propName]=value;}});if(Object.keys(attrs).length>0){drift.api.setUserAttributes(attrs);}
+window.drift.on("emailCapture",function(e){const emailAttrs={};PROPS.map(function(prop){const value=getRefQueryParam(prop);const propName="conversion_"+prop;emailAttrs[propName]=value;});drift.api.setUserAttributes(emailAttrs);});});};;
+/* Source and licensing information for the above line(s) can be found at https://www.okta.com/sites/all/themes/Okta/js/drift_attribution.js. */
+;/*})'"*/
