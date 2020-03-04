@@ -943,3 +943,61 @@
   margin-left: 20px;
   margin-top: $margin-half;
 }
+
+.language-links {
+  margin-top: $margin-double;
+  padding-top: 45px;
+}
+
+.language-links_Header {
+  text-align: center;
+  color: $mid-grey;
+  margin: $margin-standard 0;
+}
+
+.language-List {
+  padding: 0 20px;
+}
+
+.language-links_link {
+  color: $blue;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  height: 26px;
+  line-height: 26px;
+  font-weight: 500;
+  margin-bottom: $margin-half;
+  &:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    background-size: 15px;
+  }
+}
+
+.language-links_English {
+  &:before {
+    background-image: url("../images/icon--flag-us.svg");
+  }
+}
+
+.language-links_French {
+  &:before {
+    background-image: url("../images/icon--flag-fr.svg");
+  }
+}
+
+.language-links_German {
+  &:before {
+    background-image: url("../images/icon--flag-de.svg");
+  }
+}
+
+.language-links_Japanese {
+  &:before {
+    background-image: url("../images/icon--flag-jp.svg");
+  }
+}

@@ -1442,4 +1442,54 @@ li {
   margin-top: 0.75rem;
 }
 
+.language-links {
+  margin-top: 3rem;
+  padding-top: 45px;
+}
+
+.language-links_Header {
+  text-align: center;
+  color: #5d5d5d;
+  margin: 1.5rem 0;
+}
+
+.language-List {
+  padding: 0 20px;
+}
+
+.language-links_link {
+  color: #007dc1;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  height: 26px;
+  line-height: 26px;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+.language-links_link:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 15px;
+}
+
+.language-links_English:before {
+  background-image: url("../images/icon--flag-us.svg");
+}
+
+.language-links_French:before {
+  background-image: url("../images/icon--flag-fr.svg");
+}
+
+.language-links_German:before {
+  background-image: url("../images/icon--flag-de.svg");
+}
+
+.language-links_Japanese:before {
+  background-image: url("../images/icon--flag-jp.svg");
+}
+
 /*# sourceMappingURL=style.css.map */
