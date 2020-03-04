@@ -1423,4 +1423,23 @@ li {
   align-items: center;
 }
 
+.standard-links_List {
+  color: #007dc1;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  text-align: center;
+  padding: 0 25px;
+  padding-top: 60px;
+  height: 64px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.standard-links_Link {
+  margin-left: 20px;
+  margin-top: 0.75rem;
+}
+
 /*# sourceMappingURL=style.css.map */
