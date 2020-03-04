@@ -881,3 +881,18 @@
     width: 20px;
   }
 }
+
+.products-List {
+  padding: 20px 0;
+  padding-left: 45px;
+}
+
+.products-Link {
+  color: $blue;
+  height: 32px;
+  transition: color 0.4s;
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
