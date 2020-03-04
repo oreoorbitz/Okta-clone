@@ -896,6 +896,24 @@
 
 .products-Link {
   color: $blue;
+  line-height: 32px;
+  font-size: 14px;
+  font-weight: bold;
+  &.products-Link-sublink {
+    margin-left: $margin-standard;
+  }
+}
+
+.solutions-List {
+  padding: 20px 0;
+  padding-left: 45px;
+  &.hidden {
+    display: none;
+  }
+}
+
+.solutions-Link {
+  color: $blue;
   height: 32px;
   transition: color 0.4s;
   font-weight: bold;

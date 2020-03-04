@@ -1397,6 +1397,24 @@ li {
 
 .products-Link {
   color: #007dc1;
+  line-height: 32px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.products-Link.products-Link-sublink {
+  margin-left: 1.5rem;
+}
+
+.solutions-List {
+  padding: 20px 0;
+  padding-left: 45px;
+}
+.solutions-List.hidden {
+  display: none;
+}
+
+.solutions-Link {
+  color: #007dc1;
   height: 32px;
   transition: color 0.4s;
   font-weight: bold;
