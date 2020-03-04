@@ -411,6 +411,7 @@
     padding: 40px 60px;
     grid-row-gap: 0rem;
     grid-column-gap: 1rem;
+    margin-top: $margin-standard;
   }
 }
 
@@ -880,11 +881,17 @@
     transform-origin: center;
     width: 20px;
   }
+  &.expanded:before {
+    transform: translateY(-50%) rotate(-90deg);
+  }
 }
 
 .products-List {
   padding: 20px 0;
   padding-left: 45px;
+  &.hidden {
+    display: none;
+  }
 }
 
 .products-Link {
