@@ -1492,4 +1492,78 @@ li {
   background-image: url("../images/icon--flag-jp.svg");
 }
 
+.social-links {
+  padding-top: 3rem;
+}
+
+.social-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 20px;
+  justify-content: space-evenly;
+}
+
+.social-links_Link {
+  color: #007dc1;
+  border: 2px solid #007dc1;
+  border-radius: 50%;
+  display: block;
+  font-size: 0;
+  height: 32px;
+  position: relative;
+  width: 32px;
+  list-style: none;
+  margin-left: 10px;
+  margin-top: 0.75rem;
+}
+.social-links_Link:before {
+  background: #fafafa;
+  content: "";
+  display: block;
+  height: 16px;
+  position: absolute;
+  right: 1px;
+  top: 50%;
+  transform: translate(50%, -50%) rotate(45deg);
+  width: 16px;
+}
+.social-links_Link:after {
+  background: #fafafa;
+  content: "a";
+  display: block;
+  height: 16px;
+  position: absolute;
+  right: 1px;
+  top: 50%;
+  transform: translate(50%, -50%);
+  width: 16px;
+}
+
+.social-links_Twitter:after {
+  color: #007dc1;
+  background-image: url("../images/twitter-brands.svg");
+}
+
+.social-links_Facebook:after {
+  color: #007dc1;
+  background-image: url("../images/facebook-f-brands.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.social-links_Linkedin:after {
+  color: #007dc1;
+  background-image: url("../images/linkedin-in-brands.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.social-links_Youtube:after {
+  color: #007dc1;
+  background-image: url("../images/youtube-brands.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 /*# sourceMappingURL=style.css.map */
