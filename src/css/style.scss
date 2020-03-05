@@ -795,11 +795,20 @@
 
 .footer {
   margin-top: $margin-triple;
+  @media (min-width: $M) {
+    display: grid;
+    grid-template-columns: 24% 38% 38%;
+    grid-template-rows: 250px 250px 111px 110px;
+    padding: 0 80px;
+  }
 }
 
 .quick-links {
   padding-left: 25px;
   padding-right: 25px;
+  @media (min-width: $M) {
+    grid-column: 1;
+  }
 }
 
 .quick-links_Header {
@@ -823,6 +832,12 @@
   align-items: center;
   text-align: left;
   font-family: "proxima-nova", sans-serif;
+}
+
+.soltuions {
+  @media (min-width: $M) {
+    grid-column: 2;
+  }
 }
 
 .solutions-Title {
@@ -851,6 +866,12 @@
     transform: translateY(-50%) rotate(90deg);
     transform-origin: center;
     width: 20px;
+  }
+}
+
+.products {
+  @media (min-width: $M) {
+    grid-column: 3;
   }
 }
 
@@ -923,6 +944,12 @@
 }
 
 .standard-links {
+  @media (min-width: $M) {
+    justify-items: end;
+    grid-column: 3/2 span;
+    grid-row: 3;
+    align-self: center;
+  }
 }
 
 .standard-links_List {
@@ -937,26 +964,48 @@
   height: 64px;
   align-items: center;
   flex-wrap: wrap;
+  @media (min-width: $M) {
+    padding: 0;
+  }
 }
 
 .standard-links_Link {
   margin-left: 20px;
   margin-top: $margin-half;
+  @media (min-width: $M) {
+    margin-top: 0;
+  }
 }
 
 .language-links {
   margin-top: $margin-double;
   padding-top: 45px;
+  @media (min-width: $M) {
+    grid-row: 4;
+    margin-top: 0;
+    padding-top: 0;
+    justify-self: start;
+    align-self: center;
+  }
 }
 
 .language-links_Header {
   text-align: center;
   color: $mid-grey;
   margin: $margin-standard 0;
+  @media (min-width: $M) {
+    margin: $margin-half 0;
+    text-align: start;
+  }
 }
 
 .language-List {
   padding: 0 20px;
+  @media (min-width: $M) {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
 }
 
 .language-links_link {
@@ -975,6 +1024,10 @@
     background-repeat: no-repeat;
     background-position: 0 50%;
     background-size: 15px;
+  }
+
+  @media (min-width: $M) {
+    padding-right: 1rem;
   }
 }
 
@@ -1003,6 +1056,13 @@
 }
 .social-links {
   padding-top: $margin-double;
+  @media (min-width: $M) {
+    grid-column: 3/2 span;
+    grid-row: 4;
+    padding-top: 0;
+    justify-self: end;
+    align-self: center;
+  }
 }
 .social-list {
   display: flex;
@@ -1045,6 +1105,10 @@
     transform: translate(50%, -50%);
     width: 16px;
   }
+
+  @media (min-width: $M) {
+    margin-left: $margin-standard;
+  }
 }
 
 .social-links_Twitter:after {
@@ -1082,4 +1146,14 @@
   border-top: 1px solid #e6e6e8;
   padding: 0 20px;
   padding-top: 60px;
+  @media (min-width: $M) {
+    grid-column: 1/2 span;
+    grid-row: 3;
+    margin-top: 0;
+    padding-top: 0;
+    justify-self: start;
+    align-self: center;
+    border-top: none;
+    height: 30px;
+  }
 }
