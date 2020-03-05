@@ -837,6 +837,9 @@
     border-top: none;
     border-bottom: 1px solid #e6e6e8;
   }
+  &.main-footer-links_Link-noborder {
+    border-bottom: none;
+  }
 }
 
 .soltuions {

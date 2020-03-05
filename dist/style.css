@@ -1345,6 +1345,9 @@ li {
     border-bottom: 1px solid #e6e6e8;
   }
 }
+.main-footer-links_Link.main-footer-links_Link-noborder {
+  border-bottom: none;
+}
 
 @media (min-width: 700px) {
   .soltuions {
