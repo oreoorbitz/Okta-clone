@@ -10,10 +10,19 @@ Array.from(accordionTitles).forEach(accordionTitle => {
   });
 });
 ;let menu = document.getElementsByClassName("js-hamburger")[0];
-console.log(menu);
+
 menu.addEventListener("click", e => {
   menu.classList.toggle("active");
+  console.log("test");
+  toggleNav();
 });
+
+const toggleNav = function() {
+  const nav = document.getElementsByClassName("js-mobile-nav")[0];
+  const mainContent = document.getElementsByClassName("js-main-banner")[0];
+  nav.classList.toggle("hidden");
+  mainContent.classList.toggle("hidden");
+};
 ;;/*! lazysizes - v5.2.0 */
 !(function(a, b) {
   var c = b(a, a.document, Date);
@@ -746,7 +755,7 @@ menu.addEventListener("click", e => {
     detail.blurUp = (match && match[1]) || lazySizes.cfg.blurupMode || "always";
   });
 });
-;let searchIcon = document.getElementsByClassName("js-search-icon")[0];
+;;let searchIcon = document.getElementsByClassName("js-search-icon")[0];
 let searchBar = document.getElementsByClassName("js-search-bar")[0];
 searchIcon.addEventListener("click", e => {
   searchIcon.classList.toggle("active");

@@ -737,6 +737,14 @@ li {
   background-color: white;
   margin-top: 70px;
 }
+.mobile-nav.hidden {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .mobile-nav {
+    display: none;
+  }
+}
 
 .main-banner {
   background-image: url("../images/okta-bg-wave.svg");
@@ -750,6 +758,9 @@ li {
   .main-banner {
     padding-top: 200px;
   }
+}
+.main-banner.hidden {
+  display: none;
 }
 
 .main-banner_Title {
