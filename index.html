@@ -72,7 +72,9 @@ if (!getCookie("ruid") || getCookie("ruid") == "") {
   populateFormFields(ruidCookie);
 } else if (getCookie("ruid")) {
   // set the "ruid" cookie value to the form field.
-  populateFormFields(getCookie("ruid"));
+  var ruidCookie = getCookie("ruid")
+  populateFormFields(getCookie(ruidCookie));
+
 }
 </script>
 <script>
