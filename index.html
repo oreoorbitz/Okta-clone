@@ -80,7 +80,12 @@ if (!getCookie("ruid") || getCookie("ruid") == "") {
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-159383769-1');
+  gtag('config', 'UA-159383769-1', {
+  'custom_map': {'dimension1': 'user'}
+});
+
+// Sends the custom dimension to Google Analytics.
+gtag('event', {'user_dimension': '3535322336343'});
 </script>
 
   </head>
