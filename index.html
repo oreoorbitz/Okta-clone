@@ -36,6 +36,7 @@ function getCookie(cname) {
   var name = cname + "=";
   var decodedCookie = decodeURIComponent(document.cookie);
   var ca = decodedCookie.split(';');
+  console.log(ca)
   for(var i = 0; i <ca.length; i++) {
     var c = ca[i];
     while (c.charAt(0) == ' ') {
@@ -80,12 +81,14 @@ if (!getCookie("ruid") || getCookie("ruid") == "") {
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-159383769-1', {
-  'custom_map': {'dimension1': 'user'}
+gtag('config', 'UA-159383769-1', {
+  'custom_map': {'dimension1': 'userId',
+  'dimension2': 'age'
+  }
 });
 
-// Sends the custom dimension to Google Analytics.
-gtag('event', {'user_dimension': '3535322336343'});
+// Sends an event that passes 'age' as a parameter.
+gtag('event', 'user_id_event', 'user_dimension', {'userId': ruidCookie, 'age': 55});
 </script>
 
   </head>
