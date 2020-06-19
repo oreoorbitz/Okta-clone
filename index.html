@@ -81,13 +81,10 @@ if (!getCookie("ruid") || getCookie("ruid") == "") {
   gtag('js', new Date());
 
 gtag('config', 'UA-159383769-1', {
-  'custom_map': {'dimension1': 'userId',
-  'dimension2': 'age'
-  }
+  'custom_map': {'dimension1': ruidCookie }
 });
 
-// Sends an event that passes 'age' as a parameter.
-gtag('event', 'user_id_event', 'user_dimension', {'userId': ruidCookie, 'age': 55});
+
 </script>
 
   </head>
