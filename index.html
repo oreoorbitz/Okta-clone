@@ -82,13 +82,9 @@ if (!getCookie("ruid") || getCookie("ruid") == "") {
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-gtag('config', 'UA-159383769-1', {
-  'user_id': ruidCookie,
-  'custom_map': {'dimension1': 'userId'}
+gtag('config', 'UA-9031091-1', {
+  'user_id': ruidCookie
 });
-
-// Sends an event that passes 'userId' as a parameter.
-gtag('event', 'user_id_event', 'user_dimension', {'userId': ruidCookie});
 </script>
 
   </head>
